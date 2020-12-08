@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Student.destroy_all
+student1 = Student.create(first_name: "Scott", last_name: "Lee") 
+student2 = Student.create(first_name: "Charlie", last_name: "Brown") 
+student3 = Student.create(first_name: "Linus", last_name: "Torvalds") 
